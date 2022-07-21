@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+table{
+  width: 80%;
+  margin: 1rem auto;
+  border-collapse:separate; 
+  border-spacing: 0 1em;
+}
+
+td{
+  text-align: left;
+  border-bottom: 1px solid rgb(219, 217, 217);
+  padding: 0.7rem 0;
+}
+th{
+  text-align: left; 
+  padding: 0.9rem 0;
+}
+.searchbar{
+  margin-top: 2rem;
+}
+
+.searchbar input{
+  width: 80%;
+  font-size: 1.01rem;
+  padding: 0.7rem;
+  border-radius: 3px;
+  border: 1px solid rgb(219, 217, 217);
+}
+::-webkit-input-placeholder {
+  color: rgb(219, 217, 217);
+}
+
+.list nav{
+  position: relative;
+}
+
+.pagination{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  bottom: 0;
+  background: white;
+  padding: 1rem;
+  box-shadow: 20px 20px 20px 15px #888888;
+}
+.pagination li{
+  list-style: none;
+}
+.pagination .page-item{
+  padding: 0.7rem 1rem;
+  background-color: rgb(212, 212, 212);
+  font-size: 1.2rem;
+  margin-right: 0.6rem;
+  cursor: pointer;
+}
+.highLigh{
+  border: 1px solid rgb(59, 59, 212);
+}
